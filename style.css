@@ -452,15 +452,38 @@ ul li a:hover{
     .home .content p{
         font-size: 1.5rem;
     }
-
-}
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
+    .navbar {
+        width: 100%; /* Полна ширина за мали екрани */
     }
 
+    .menu ul {
+        flex-direction: column; /* Поставете мениот во колони */
+    }
+
+    .menu ul li {
+        margin: 10px 0; /* Помалку размак меѓу елементите на мениот */
+    }
+
+    .search {
+        margin-left: 0; /* Помалку маргина на лево */
+    }
+
+    .content h1 {
+        font-size: 40px; /* Помалку големина на насловот */
+    }
+    
+    .content p.par {
+        font-size: 14px; /* Помалку големина на текстот */
+    }
+
+    .cn {
+        width: 140px; /* Помалку ширина на копчето */
+    }
+
+    
+
 }
+
+
 
 
