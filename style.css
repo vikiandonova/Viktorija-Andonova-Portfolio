@@ -385,35 +385,31 @@ ul li a:hover{
   }
 
 
-/* media queries  */
-@media (max-width:991px){
 
-    html{
-        font-size: 55%;
+/* Стилови за мали екрани (мобилни) */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%; /* Полна ширина за мали екрани */
     }
 
-    .header{
-        padding:1.5rem 2rem;
+    .icon, .menu, .search {
+        width: 100%; /* Полна ширина за мали екрани */
+        text-align: center; /* Центрирање на содржината */
+        float: none; /* Поставете "float" на "none" */
     }
 
-    section{
-        padding:2rem;
+    .menu ul {
+        flex-direction: column; /* Смени го стилот на мениот на колони */
+        margin-top: 10px; /* Помалку размак на горе */
     }
 
+    .menu ul li {
+        margin: 10px 0; /* Помалку размак меѓу елементите на мениот */
+    }
+
+    .search {
+        margin-left: 0; /* Помалку маргина на лево */
+    }
 }
 
-@media (max-width:768px){
 
-    #menu-btn{
-        display: inline-block;
-    }
-
-    
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-
-}
