@@ -388,8 +388,11 @@ ul li a:hover{
 
 /* Стилови за мали екрани (мобилни) */
 @media (max-width: 768px) {
+     #menu-btn{
+        display: inline-block;
+    }
     .navbar {
-        width: 100%; /* Полна ширина за мали екрани */
+        width: 50%; /* Полна ширина за мали екрани */
     }
 
     .icon, .menu, .search {
